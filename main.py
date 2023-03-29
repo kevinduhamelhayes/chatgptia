@@ -1,11 +1,14 @@
 import openai  # pip install openai
 import typer  # pip install "typer[all]"
+import config
 from rich import print  # pip install rich
 from rich.table import Table
+
 def main():
 
-    openai.api_key = "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"
-    print("💬 [bold green]ChatGPT API en Python[/bold green]")
+    openai.api_key = config.api_key
+
+    print(" [bold green]ChatGPT API en Python[/bold green]")
 
     table = Table("Comando", "Descripción")
     table.add_row("exit", "Salir de la aplicación")
