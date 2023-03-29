@@ -17,7 +17,7 @@ else:
     print("Number1 is not an integer ")
 signo= input("Enter a sign: ")
 if:
-    signo= [+,-,*,/]
+    signo= [ +, -,*,/]
     print("Signo is a valid string")
 else:
     print("Signo is not a valid string ")

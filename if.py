@@ -12,6 +12,12 @@
 # print("Fin del programa")
 
 
-edad= int(input("Escribe tu edad: "))
-mensaje= "Eres mayor de edad" if edad >= 18 else "Eres menor de edad"
-print(mensaje)
+# edad= int(input("Escribe tu edad: "))
+# mensaje= "Eres mayor de edad" if edad >= 18 else "Eres menor de edad"
+# print(mensaje)
+
+# Description: Ejemplo de and
+gas= input("¿Hay gasolina? ")
+encendido= input("¿Esta encendido? ")
+if gas == "si" and encendido == "si":
+    print("Puedes arrancar")   
