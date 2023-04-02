@@ -3,6 +3,14 @@ from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from pathlib import Path
 import smtplib
+
+plantilla = Path("plantilla.html").read_text()
+
+
+
+
+
+
 mensaje = MIMEMultipart()
 mensaje["From"] = "hola"
 mensaje["To"] = "hola@gmail.com"
