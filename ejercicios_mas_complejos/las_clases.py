@@ -29,24 +29,24 @@ class Perro:
             raise ValueError("El nombre no puede ser numerico")
         
             self.__nombre = nombre
-mi_perro = Perro("firulais", 5)
-    def __del__(self, nombre, edad):
-        print(f"Se ha eliminado el objeto{self.nombre}")
-    @classmethod
-    def ladrar(cls):
-        print("guau guau")
-    def __str__(self):
-        return f"Perro {self.__nombre}, edad: {self.edad}"
-mi_perro = Perro("firulais", 5)
-mi_perro2 = Perro("firulais2", 6)
+# mi_perro = Perro("firulais", 5)
+#     def __del__(self, nombre, edad):
+#         print(f"Se ha eliminado el objeto{self.nombre}")
+#     @classmethod
+#     def ladrar(cls):
+#         print("guau guau")
+#     def __str__(self):
+#         return f"Perro {self.__nombre}, edad: {self.edad}"
+# mi_perro = Perro("firulais", 5)
+# mi_perro2 = Perro("firulais2", 6)
 
-print(mi_perro)
-print(mi_perro2)
-print(mi_perro.patas)
-print(mi_perro2.patas)
-print(Perro.patas)
-mi_perro.ladrar()
-del mi_perro
+# print(mi_perro)
+# print(mi_perro2)
+# print(mi_perro.patas)
+# print(mi_perro2.patas)
+# print(Perro.patas)
+# mi_perro.ladrar()
+# del mi_perro
 #metodos magicos
 # __init__ constructor
 # __str__ string

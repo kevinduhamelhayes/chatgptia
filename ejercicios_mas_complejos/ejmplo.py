@@ -24,5 +24,5 @@ class Usuario(Modelo):
 
 
 
-model=Usuario("Juan", "Perez", "", "123456")
-print(model)
+usuario1=Usuario("Juan", "Perez", "", "123456")
+print(usuario1)

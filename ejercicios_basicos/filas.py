@@ -1,3 +1,4 @@
+#primero en entrar primero en salir
 from collections import deque
 
 fila=deque(list (range(1, 100)))
